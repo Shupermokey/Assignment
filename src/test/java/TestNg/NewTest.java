@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import HtmlPackage.HtmlForm;
-import junit.framework.Assert;
+import org.junit.Assert;
 
 public class NewTest {
 	
