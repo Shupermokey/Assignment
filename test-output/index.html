@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\asobiera\AppData\Local\Temp\testng-eclipse-536913709\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeAddress">changeAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeCity">changeCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeCountry">changeCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeFuel">changeFuel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeGender">changeGender</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeMFG">changeMFG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeOwnerName">changeOwnerName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeState">changeState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeTitle">changeTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeVehical">changeVehical</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="changeZip">changeZip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkTitle">checkTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkTitleAlert">checkTitleAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeAddressAlert">checkeAddressAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeCityAlert">checkeCityAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeCountryAlert">checkeCountryAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeFuelAlert">checkeFuelAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeGenderAlert">checkeGenderAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeMFGAlert">checkeMFGAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeOwnerNameAlert">checkeOwnerNameAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeStateAlert">checkeStateAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeSuccessAlert">checkeSuccessAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeVehicalAlert">checkeVehicalAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNg.NewTest" class="method navigator-link" hash-for-method="checkeZipAlert">checkeZipAlert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNg.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeAddress">
+                  </a> <!-- changeAddress -->
+                  <span class="method-name">changeAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeCity">
+                  </a> <!-- changeCity -->
+                  <span class="method-name">changeCity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeCountry">
+                  </a> <!-- changeCountry -->
+                  <span class="method-name">changeCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeFuel">
+                  </a> <!-- changeFuel -->
+                  <span class="method-name">changeFuel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeGender">
+                  </a> <!-- changeGender -->
+                  <span class="method-name">changeGender</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeMFG">
+                  </a> <!-- changeMFG -->
+                  <span class="method-name">changeMFG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeOwnerName">
+                  </a> <!-- changeOwnerName -->
+                  <span class="method-name">changeOwnerName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeState">
+                  </a> <!-- changeState -->
+                  <span class="method-name">changeState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeTitle">
+                  </a> <!-- changeTitle -->
+                  <span class="method-name">changeTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeVehical">
+                  </a> <!-- changeVehical -->
+                  <span class="method-name">changeVehical</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeZip">
+                  </a> <!-- changeZip -->
+                  <span class="method-name">changeZip</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitle">
+                  </a> <!-- checkTitle -->
+                  <span class="method-name">checkTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitleAlert">
+                  </a> <!-- checkTitleAlert -->
+                  <span class="method-name">checkTitleAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeAddressAlert">
+                  </a> <!-- checkeAddressAlert -->
+                  <span class="method-name">checkeAddressAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeCityAlert">
+                  </a> <!-- checkeCityAlert -->
+                  <span class="method-name">checkeCityAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeCountryAlert">
+                  </a> <!-- checkeCountryAlert -->
+                  <span class="method-name">checkeCountryAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeFuelAlert">
+                  </a> <!-- checkeFuelAlert -->
+                  <span class="method-name">checkeFuelAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeGenderAlert">
+                  </a> <!-- checkeGenderAlert -->
+                  <span class="method-name">checkeGenderAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeMFGAlert">
+                  </a> <!-- checkeMFGAlert -->
+                  <span class="method-name">checkeMFGAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeOwnerNameAlert">
+                  </a> <!-- checkeOwnerNameAlert -->
+                  <span class="method-name">checkeOwnerNameAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeStateAlert">
+                  </a> <!-- checkeStateAlert -->
+                  <span class="method-name">checkeStateAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeSuccessAlert">
+                  </a> <!-- checkeSuccessAlert -->
+                  <span class="method-name">checkeSuccessAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeVehicalAlert">
+                  </a> <!-- checkeVehicalAlert -->
+                  <span class="method-name">checkeVehicalAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkeZipAlert">
+                  </a> <!-- checkeZipAlert -->
+                  <span class="method-name">checkeZipAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\asobiera\AppData\Local\Temp\testng-eclipse-536913709\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNg.NewTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'changeCountry')
+data.setCell(0, 2, 'TestNg.NewTest')
+data.setCell(0, 3, 183);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'changeTitle')
+data.setCell(1, 2, 'TestNg.NewTest')
+data.setCell(1, 3, 170);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'changeMFG')
+data.setCell(2, 2, 'TestNg.NewTest')
+data.setCell(2, 3, 163);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkTitleAlert')
+data.setCell(3, 2, 'TestNg.NewTest')
+data.setCell(3, 3, 137);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkeZipAlert')
+data.setCell(4, 2, 'TestNg.NewTest')
+data.setCell(4, 3, 108);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkeMFGAlert')
+data.setCell(5, 2, 'TestNg.NewTest')
+data.setCell(5, 3, 90);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkeCountryAlert')
+data.setCell(6, 2, 'TestNg.NewTest')
+data.setCell(6, 3, 88);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'changeOwnerName')
+data.setCell(7, 2, 'TestNg.NewTest')
+data.setCell(7, 3, 87);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'changeAddress')
+data.setCell(8, 2, 'TestNg.NewTest')
+data.setCell(8, 3, 87);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkeCityAlert')
+data.setCell(9, 2, 'TestNg.NewTest')
+data.setCell(9, 3, 85);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'changeCity')
+data.setCell(10, 2, 'TestNg.NewTest')
+data.setCell(10, 3, 84);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'changeVehical')
+data.setCell(11, 2, 'TestNg.NewTest')
+data.setCell(11, 3, 83);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkeStateAlert')
+data.setCell(12, 2, 'TestNg.NewTest')
+data.setCell(12, 3, 81);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'changeFuel')
+data.setCell(13, 2, 'TestNg.NewTest')
+data.setCell(13, 3, 79);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkeSuccessAlert')
+data.setCell(14, 2, 'TestNg.NewTest')
+data.setCell(14, 3, 78);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkeVehicalAlert')
+data.setCell(15, 2, 'TestNg.NewTest')
+data.setCell(15, 3, 78);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'changeState')
+data.setCell(16, 2, 'TestNg.NewTest')
+data.setCell(16, 3, 72);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkeAddressAlert')
+data.setCell(17, 2, 'TestNg.NewTest')
+data.setCell(17, 3, 72);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'changeGender')
+data.setCell(18, 2, 'TestNg.NewTest')
+data.setCell(18, 3, 71);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'changeZip')
+data.setCell(19, 2, 'TestNg.NewTest')
+data.setCell(19, 3, 69);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkeOwnerNameAlert')
+data.setCell(20, 2, 'TestNg.NewTest')
+data.setCell(20, 3, 68);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkeFuelAlert')
+data.setCell(21, 2, 'TestNg.NewTest')
+data.setCell(21, 3, 61);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkeGenderAlert')
+data.setCell(22, 2, 'TestNg.NewTest')
+data.setCell(22, 3, 57);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkTitle')
+data.setCell(23, 2, 'TestNg.NewTest')
+data.setCell(23, 3, 20);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNg.NewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">openChrome</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkTitle</span>
+                <span class="method-start">3488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTitleAlert</span>
+                <span class="method-start">3514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeTitle</span>
+                <span class="method-start">3653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeOwnerNameAlert</span>
+                <span class="method-start">3824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeOwnerName</span>
+                <span class="method-start">3895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeGenderAlert</span>
+                <span class="method-start">3983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeGender</span>
+                <span class="method-start">4043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeAddressAlert</span>
+                <span class="method-start">4115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeAddress</span>
+                <span class="method-start">4193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeCityAlert</span>
+                <span class="method-start">4281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeCity</span>
+                <span class="method-start">4367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeStateAlert</span>
+                <span class="method-start">4452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeState</span>
+                <span class="method-start">4534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeCountryAlert</span>
+                <span class="method-start">4612 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeCountry</span>
+                <span class="method-start">4702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeZipAlert</span>
+                <span class="method-start">4886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeZip</span>
+                <span class="method-start">4999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeVehicalAlert</span>
+                <span class="method-start">5069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeVehical</span>
+                <span class="method-start">5149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeFuelAlert</span>
+                <span class="method-start">5233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeFuel</span>
+                <span class="method-start">5296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeMFGAlert</span>
+                <span class="method-start">5378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changeMFG</span>
+                <span class="method-start">5470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkeSuccessAlert</span>
+                <span class="method-start">5634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTests</span>
+                <span class="method-start">5714 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
